@@ -2,6 +2,9 @@ plugins {
     id 'com.android.application'
     id 'org.jetbrains.kotlin.android'
 }
+task wrapper(type: Wrapper) {
+    gradleVersion = '7.0'
+}
 
 android {
     namespace 'com.example.composearticle'
